@@ -96,11 +96,26 @@ nav{
   color: #fff;
   
 }
+
 .btn{
+    display: inline-block;
+    height: 18px;
+    padding: 10px 24px;
+    border-radius: 5px;
+    background-color: #5C62EC;
+    color: #FFFFFF;
+    letter-spacing: 0.15;
+    font-size: 16px;
+    font-weight: 500;
+    transition: opacity 0.2s ease-in;
+    text-align: center;
+}
+
+/*.btn{
 
   display: inline-block;
   height: 25px;
-  /* width: 200px; */
+  // width: 200px;
   padding: 16px, 28px;
   border-radius: 5px;
   background-color: #5c62ec;
@@ -110,8 +125,7 @@ nav{
   font-weight: 500;
   transition: opacity 0.2s ease-in;
   text-align: center;
-
-}
+}*/
 .logo strong{
   font-size: 24px;
   font-weight: 700;
@@ -213,10 +227,14 @@ h3{
 .content-list a{
   color: #5C62EC;
 }
+.content-list {
+  text-align:center;
+}
 
 .content-list_item{
   font-size: 18px;
   line-height: 1.5;
+  font-weight: 700;
 }
 
 .content-list_item p+p{
@@ -228,6 +246,26 @@ h3{
     font-weight: 700;
     line-height: 1.3;
     text-align:center;
+}
+.video{
+    max-width: 865px;
+    background-color: #fff;
+    box-shadow: 0px 5px 35px rgba(0,0,0,0.25);
+    border-radius: 10px;
+
+}
+.btn-outline{
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  height: 40px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  transition: opacity 0.2s ease-in;
+  max-width: 150px;
 }
 
 
